@@ -32,28 +32,26 @@ The emails.csv file has:
 - Ensure your dataset is available and update the dataset location in the code accordingly.
 ## Workflow
 
-#### Data Loading and Exploration: 
+#### 1️⃣ Data Loading and Exploration: 
 Load and inspect the dataset.
 
-#### Data Preprocessing and Feature Extraction
+#### 2️⃣ Data Preprocessing and Feature Extraction
 Extract features (word counts) and labels from the dataset.
 
-#### Train-Test Split
+#### 3️⃣ Train-Test Split
 Split the data into training and testing sets (e.g., 80/20).
 
-#### Model Training
+#### 4️⃣ Model Training
 Train a Multinomial Naive Bayes model using the training data.
 
-#### Model Evaluation
+#### 5️⃣ Model Evaluation
 Evaluate model performance on the test set.
 
-#### New Email Prediction
+#### 6️⃣ New Email Prediction
 Create a function to transform and predict on new email text.
 
-#### Model Persistence
+#### 7️⃣ Model Persistence
 Save the trained model and CountVectorizer for future use.
 
-#### Deployment via Streamlit
+#### 8️⃣ Deployment via Streamlit
 Build a web app using Streamlit that allows users to enter email text and see prediction results.
-
-
